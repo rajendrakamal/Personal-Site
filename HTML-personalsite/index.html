@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Your Name</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-content">
+        <a class="brand" href="#home">Your Name</a>
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="navigation-menu">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle__line"></span>
+            <span class="nav-toggle__line"></span>
+            <span class="nav-toggle__line"></span>
+          </button>
+          <ul class="nav-list" id="navigation-menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero__content">
+          <div class="hero__text">
+            <p class="hero__eyebrow">Software Engineer · Problem Solver</p>
+            <h1 class="hero__title">Building thoughtful digital experiences.</h1>
+            <p class="hero__subtitle">
+              I craft scalable solutions, intuitive interfaces, and delightful user journeys
+              by blending engineering rigor with design thinking.
+            </p>
+            <div class="hero__cta">
+              <a class="btn" href="#projects">View Work</a>
+              <a class="btn btn--ghost" href="#contact">Let's Collaborate</a>
+            </div>
+            <div class="hero__socials" aria-label="Social links">
+              <a href="https://github.com/your-github" target="_blank" rel="noreferrer"
+                >GitHub</a
+              >
+              <a href="https://www.linkedin.com/in/your-linkedin" target="_blank" rel="noreferrer"
+                >LinkedIn</a
+              >
+              <a href="mailto:you@example.com">Email</a>
+            </div>
+          </div>
+          <div class="hero__visual" aria-hidden="true">
+            <div class="glow"></div>
+            <div class="orb"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Introduction</span>
+            <h2 class="section__title">About Me</h2>
+            <p class="section__subtitle">
+              Passionate about creating meaningful and accessible digital products, I combine
+              technical expertise with strong collaboration and communication skills.
+            </p>
+          </div>
+          <div class="about__grid">
+            <article class="about__card">
+              <h3>What I Do</h3>
+              <p>
+                Full-stack development with a focus on responsive web applications, robust
+                APIs, and automation. I thrive in cross-functional teams and agile
+                environments.
+              </p>
+            </article>
+            <article class="about__card">
+              <h3>What Drives Me</h3>
+              <p>
+                Building inclusive experiences, mentoring teammates, and transforming complex
+                ideas into intuitive solutions that delight users and deliver business value.
+              </p>
+            </article>
+            <article class="about__card">
+              <h3>Currently Exploring</h3>
+              <p>
+                Web accessibility, design systems, and emerging AI-driven developer tools to
+                streamline product delivery.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section experience">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Professional Journey</span>
+            <h2 class="section__title">Experience</h2>
+          </div>
+          <div class="timeline">
+            <article class="timeline__item">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content">
+                <div class="timeline__meta">
+                  <span class="timeline__role">Senior Software Engineer</span>
+                  <span class="timeline__company">Tech Innovators</span>
+                  <span class="timeline__date">2021 — Present</span>
+                </div>
+                <p>
+                  Led cross-functional squads to deliver a next-generation analytics platform,
+                  scaling to 1M+ users and reducing data latency by 45%. Mentored junior
+                  engineers and drove adoption of CI/CD best practices.
+                </p>
+              </div>
+            </article>
+            <article class="timeline__item">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content">
+                <div class="timeline__meta">
+                  <span class="timeline__role">Software Engineer</span>
+                  <span class="timeline__company">Creative Cloud Co.</span>
+                  <span class="timeline__date">2018 — 2021</span>
+                </div>
+                <p>
+                  Built accessible, component-driven interfaces and API integrations for a
+                  design collaboration suite, improving team productivity by 30%.
+                </p>
+              </div>
+            </article>
+            <article class="timeline__item">
+              <div class="timeline__marker"></div>
+              <div class="timeline__content">
+                <div class="timeline__meta">
+                  <span class="timeline__role">Frontend Developer</span>
+                  <span class="timeline__company">StartUp Labs</span>
+                  <span class="timeline__date">2016 — 2018</span>
+                </div>
+                <p>
+                  Created pixel-perfect marketing sites and interactive dashboards, helping the
+                  company secure Series A funding through polished demos and prototypes.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section education">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Academic Background</span>
+            <h2 class="section__title">Education</h2>
+          </div>
+          <div class="education__grid">
+            <article class="education__item">
+              <h3>B.S. in Computer Science</h3>
+              <p class="education__school">University of Technology</p>
+              <p class="education__meta">2012 — 2016</p>
+              <p>
+                Graduated with honors. Focused on software engineering, human-computer
+                interaction, and data visualization.
+              </p>
+            </article>
+            <article class="education__item">
+              <h3>Design Thinking Certificate</h3>
+              <p class="education__school">Innovation Academy</p>
+              <p class="education__meta">2017</p>
+              <p>
+                Completed a 12-week immersive program emphasizing user research, rapid
+                prototyping, and collaborative problem solving.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Strengths</span>
+            <h2 class="section__title">Skills</h2>
+          </div>
+          <div class="skills__grid">
+            <article class="skill-card" data-skill-level="95">
+              <h3>JavaScript &amp; TypeScript</h3>
+              <p>Building performant, modular applications with modern frameworks.</p>
+              <div class="skill-card__bar"></div>
+            </article>
+            <article class="skill-card" data-skill-level="90">
+              <h3>React &amp; UI Engineering</h3>
+              <p>Design systems, accessibility, and high-quality component libraries.</p>
+              <div class="skill-card__bar"></div>
+            </article>
+            <article class="skill-card" data-skill-level="85">
+              <h3>Node.js &amp; APIs</h3>
+              <p>Crafting secure REST/GraphQL APIs and automating CI/CD pipelines.</p>
+              <div class="skill-card__bar"></div>
+            </article>
+            <article class="skill-card" data-skill-level="80">
+              <h3>Cloud &amp; DevOps</h3>
+              <p>Deploying resilient services with AWS, Docker, and infrastructure as code.</p>
+              <div class="skill-card__bar"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__eyebrow">Selected Work</span>
+            <h2 class="section__title">Projects</h2>
+            <p class="section__subtitle">
+              A snapshot of recent projects that highlight my approach to product development.
+            </p>
+          </div>
+          <div class="projects__grid">
+            <article class="project-card">
+              <h3>Insight Analytics</h3>
+              <p>
+                Multi-tenant analytics dashboard with real-time insights and custom reporting,
+                built with React, D3, and a Node.js microservice architecture.
+              </p>
+              <a class="project-card__link" href="https://github.com/your-github/insight-analytics" target="_blank" rel="noreferrer"
+                >View on GitHub</a
+              >
+            </article>
+            <article class="project-card">
+              <h3>Journey Planner</h3>
+              <p>
+                AI-assisted travel planner delivering personalized itineraries powered by
+                serverless functions and interactive maps.
+              </p>
+              <a class="project-card__link" href="https://github.com/your-github/journey-planner" target="_blank" rel="noreferrer"
+                >View on GitHub</a
+              >
+            </article>
+            <article class="project-card">
+              <h3>Inclusive UI Toolkit</h3>
+              <p>
+                Accessible component library featuring dark mode, keyboard navigation, and
+                strong documentation.
+              </p>
+              <a class="project-card__link" href="https://github.com/your-github/inclusive-ui" target="_blank" rel="noreferrer"
+                >View on GitHub</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="container contact__container">
+          <div class="contact__text">
+            <span class="section__eyebrow">Let's Connect</span>
+            <h2 class="section__title">Ready to build something impactful?</h2>
+            <p>
+              I'm always excited to collaborate on innovative projects. Drop a note and let's
+              explore how we can work together.
+            </p>
+          </div>
+          <form class="contact__form" action="https://formspree.io/f/mnqkygrq" method="POST">
+            <label class="form-field">
+              <span>Name</span>
+              <input name="name" type="text" placeholder="Jane Doe" required />
+            </label>
+            <label class="form-field">
+              <span>Email</span>
+              <input name="email" type="email" placeholder="jane@example.com" required />
+            </label>
+            <label class="form-field">
+              <span>Message</span>
+              <textarea name="message" rows="4" placeholder="Let's build something great." required></textarea>
+            </label>
+            <button class="btn" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer__content">
+        <p>© <span id="current-year"></span> Your Name. Crafted with purpose.</p>
+        <a class="footer__top" href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
